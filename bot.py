@@ -47,8 +47,7 @@ async def start(message: Message):
 async def section_1(call: CallbackQuery):
     await call.message.edit_text(
         "⛏️ MINEPLAY\n\n"
-        "Після реєстрації в пошуку введи mineslot 
-        Натисни кнопку нижче, щоб продовжити 👇",
+        " Натисни кнопку нижче, щоб продовжити 👇",
         reply_markup=play_menu(MINEPLAY_URL)
     )
     await call.answer()
