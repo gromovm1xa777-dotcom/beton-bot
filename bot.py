@@ -8,7 +8,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # ВАЖНО: ссылки в кавычках и без пробелов
-MINEPLAY_URL = "https://click.mytraffgun.com/click?pid=1910&offer_id=455"
+MINEPLAY_URL = "https://click.mytraffgun.com/click?pid=1910&offer_id=557"
 ICEFISH_URL  = "https://click.mytraffgun.com/click?pid=1910&offer_id=455"
 
 
