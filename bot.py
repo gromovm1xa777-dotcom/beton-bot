@@ -21,6 +21,11 @@ def main_menu():
     kb.button(text="⛏️ MINEPLAY", callback_data="section_1")
     kb.button(text="🎣 ICEFISH", callback_data="section_2")
     kb.adjust(2)
+    kb.button(
+    text="🧭 Домогти знайти гру",
+    url="https://t.me/trafisen"
+)
+
     return kb.as_markup()
 
 
