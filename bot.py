@@ -47,6 +47,7 @@ async def start(message: Message):
 async def section_1(call: CallbackQuery):
     await call.message.edit_text(
         "⛏️ MINEPLAY\n\n"
+        "Після реєстрації в пошуку введи mineslot"
         "Натисни кнопку нижче, щоб продовжити 👇",
         reply_markup=play_menu(MINEPLAY_URL)
     )
@@ -57,6 +58,7 @@ async def section_1(call: CallbackQuery):
 async def section_2(call: CallbackQuery):
     await call.message.edit_text(
         "🎣 ICEFISH\n\n"
+        "Після реєстрації в пошуку введи icefishing"
         "Натисни кнопку нижче, щоб продовжити 👇",
         reply_markup=play_menu(ICEFISH_URL)
     )
