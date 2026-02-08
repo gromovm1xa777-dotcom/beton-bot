@@ -9,7 +9,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # ВАЖНО: ссылки в кавычках и без пробелов
 MINEPLAY_URL = "https://click.mytraffgun.com/click?pid=1910&offer_id=443"
-ICEFISH_URL  = "https://click.mytraffgun.com/click?pid=1910&offer_id=455"
+ICEFISH_URL  = "https://click.mytraffgun.com/click?pid=1910&offer_id=736"
 
 
 bot = Bot(token=BOT_TOKEN)
