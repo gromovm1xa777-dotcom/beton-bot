@@ -54,13 +54,13 @@ async def start(message: Message):
 @dp.callback_query(F.data == "section_1")
 async def section_1(call: CallbackQuery):
     await call.message.edit_text(
-        "⛏️ MINEPLAY\n\n"
-        "🎮 Готовий спробувати MineSlot?",
-        "Пройди швидку реєстрацію та отримай:",
-        "🎁 +100% до першого депозиту",
-        "🎰 100 безкоштовних спінів,
-        "💳 Активація бонусів — від 300 грн",
-        "Натисни кнопку нижче, щоб продовжити 👇",
+        ("⛏ MINEPLAY\n\n"
+     "🎮 Готовий спробувати MineSlot?\n\n"
+     "Пройди швидку реєстрацію та отримай:\n"
+     "🎁 +100% до першого депозиту\n"
+     "🎰 100 безкоштовних спінів\n\n"
+     "💳 Активація бонусів — від 300 грн\n\n"
+     "Натисни кнопку нижче, щоб продовжити 👇"),
         reply_markup=play_menu(MINEPLAY_URL)
     )
     await call.answer()
